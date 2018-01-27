@@ -17,3 +17,5 @@ end
 def valid_phone_number?(phone)
   phone.map{|n| n.scan(/[\d]/)}.all?{|n| n.length==10}
 end
+
+valid_phone_number?()

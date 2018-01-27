@@ -15,5 +15,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  phone.map{|n| n.scan(/[\d]/)}.all?{|n| n.length==10}
+  phone.scan(/[\d]/).length==10
 end

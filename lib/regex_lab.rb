@@ -23,3 +23,5 @@ end
 binding.pry
 
 valid_phone_number?(["2438894546", "(718)891-1313", "234 435 9978", "(800)4261134"])
+
+valid_phone_number?()

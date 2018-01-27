@@ -18,4 +18,4 @@ def valid_phone_number?(phone)
   phone.map{|n| n.scan(/[\d]/)}.all?{|n| n.length==10}
 end
 
-valid_phone_number?()
+valid_phone_number?(["2438894546", "(718)891-1313", "234 435 9978", "(800)4261134"])
